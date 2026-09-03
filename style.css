@@ -1,0 +1,167 @@
+body {
+    font-family: roboto;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #1F2937;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+}
+
+.header a {
+    text-decoration: none;
+    color: rgb(210, 210, 210);
+}
+
+.header h1 {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.container-one {
+    display: flex;
+    align-items: center;
+    padding: 50px 200px;
+    background-color: #1F2937;
+}
+
+.container-one h2 {
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 0;
+    color: #F9FAF8;
+}
+
+.container-one p {
+    color: #dddddd;
+}
+
+img {
+    width: 500px;
+}
+
+.container-one button {
+    background-color: #5299fc;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    padding: 5px 30px
+}
+
+.container-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.container-two .info {
+    display: flex;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.container-two .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-two img {
+    width: 150px;
+}
+
+.container-two p {
+    text-align: center;
+}
+
+.container-two h2 {
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.container-three {
+    background-color: rgb(230, 230, 230);
+    padding: 50px 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-three .quote {
+    font-size: 35px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.author {
+    margin-left: auto;
+    margin-right: 25px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.author, .quote {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.container-four {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message {
+    background-color: #5299fc;
+    width: 1000px;
+    height: 150px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.left h3 {
+    color: #F9FAF8;
+    font-size: 30px;
+    margin: 0
+}
+
+.left p {
+    color: #f0f0f0;
+    margin: 0;
+
+}
+
+.container-four button {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    padding: 5px 20px;
+    font-size: 20px;
+    color: #f0f0f0;
+}
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+footer p {
+    color:#dddddd
+}
